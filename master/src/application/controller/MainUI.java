@@ -30,7 +30,6 @@ import application.model.*;
 import application.model.appearance.Config;
 import application.model.appearance.CustomStyle;
 import application.model.dirTree.*;
-import application.model.helpDoc.HelpUtil;
 import application.model.picList.ThumbsReview;
 
 public class MainUI implements Initializable {
@@ -93,10 +92,6 @@ public class MainUI implements Initializable {
     @FXML
     private Button exitButton;
 
-    @FXML
-    void helpAction(ActionEvent event) {
-        HelpUtil.openDoc();
-    }
 
     @FXML
     void colorPickerAction(ActionEvent event) {
